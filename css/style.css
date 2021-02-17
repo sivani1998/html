@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+.navbar-nav .nav-link {
+    color: #333;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.navbar-nav .nav-link:hover {
+    color: #127CBD;
+}
+.navbar-nav .active .nav-link {
+    color: #127CBD;
+}
+.navbar-nav .nav-link.login-link {
+    color: #127CBD;
+}
+.navbar-nav .nav-link i {
+    margin-right: 5px;
+}
+
+/* banner css */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 550px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+.banner-content {
+    background: rgba(0,0,0,.8);
+    padding: 40px 45px;
+    color: #fff;
+    width: 400px;
+}
+.banner-content h1 {
+    font-size: 1.5rem;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+.banner-content h1 span {
+    color: green;
+}
+.banner-content p {
+    text-align: center;
+    margin: 0;
+    font-size: 13px;
+}
+
+.analytic {
+    margin-top: 80px;
+}
+
+footer {
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+footer h3 {
+    color: #127CBD;
+    font-size: 18px;
+}
+footer p {
+    font-size: 14px;
+}
+.contact-section {
+    border-left: 1px solid red;
+    height: 100%;
+    padding-left: 80px;
+    text-align: center;
+}
+.social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-links li {
+    padding: 10px;
+}
+.social-links li a {
+    color: #000;
+}
+/**work css**/
+.work-container {
+    height: 500px;
+    width: auto;
+    justify-content: center;
+    margin-left: 100px;
+    padding-top: 60px;
+  }
+  .work-container .sub {
+    padding-top: 40px;
+    margin: 10px;
+    padding: 20px;
+    right: 50%;
+    transform: skew(210deg,0);
+    background-color:blue;
+   height: 100px;
+   width:auto;
+  }
+  .row {
+    column-gap: 20px;
+  }
+  @media screen and (min-width: 480px){
+    .work-container .sub{
+    
+      margin: 20px;
+      width: 100%;
+      text-replace: skew(0,20deg);
+    }
+    .work-container .sub {
+      margin: 20px;
+      padding: 20px;
+      right: 50%;
+      transform: skew(210deg,0);
+      background-color:rgb(124, 124, 196);
+     height: 150px;
+     width: 200px;
+    }
+  }
+  .work-container .sub p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  
+   .container-one {
+    padding-left: 100px;
+     margin: 50px;
+     height:200px;
+   width: 100%;
+    object-fit: contain;
+  }
+  .container-one img{
+   height: 100px;
+    width: 100px;
+
+    }
+  .container-one p{
+    font-size: 12px;
+  }
+  /**service**/
+  /**service**/
+  .service-list  {
+   
+    width: 100%;
+    border-color: cornflowerblue;
+    list-style: none;
+     font-size: 16px;
+  font-weight: bold;
+  }
+  .service-list .list .one {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+      border-style: solid;
+      border-color: turquoise;
+    }
+  /**normal**/
+.container .four {
+    width: 100%;
+    height: 300px;
+  }
+  .container .one {
+    width: 200px;
+  }
+  .container .one  h6{
+  font-size: 25px;
+  color: rgb(98, 98, 153);
+  font-weight: bold;
+  }
+  .container .one  p{
+    padding: 0px;
+    font-size: 16px;
+  }
+  .container .two {
+    width: 400px;
+    height:auto;
+    padding: 30px;
+    background-color: cornflowerblue;
+  }
+  .container .two p{
+    color: #fff;
+    font-size: 14px;
+  }
+  .container .three p {
+    color: #127CBD;
+    font-weight: 100px;
+    border-radius: 10px;
+  }
+  /**customer voice**/
+.imgheader img{
+    height: 80px;
+    width: 80px;
+  border-radius: 50%;
+  }
+  .customer-container{
+   margin-left: 350px;
+   margin-right: 350px;
+   margin-top: 30px;
+   margin-bottom: 100px;
+  
+    display: block;
+    border-style: hidden;
+    box-shadow: lightslategrey;
+  }
+  .imgheader h2{
+    font-size: 12px;
+  }
+  .imgheader h3{
+    font-size: 10px;
+  }
+  .imgheader .name {
+    margin-top: 10px;
+  }
+  .customer-container .passage {
+    display: block;
+    font-size: 14px;
+  
+  }
+  .customer {
+    padding-top: 60px;
+  display: block;
+  border-bottom: black;
+  background-color: white;
+  }  
